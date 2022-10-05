@@ -8,6 +8,7 @@ const FormTextInput = ({ type, placeholder, name, formik }) => {
       name={name}
       onChange={formik.handleChange}
       autoComplete="on"
+      className="form-control"
     />
   );
 };
